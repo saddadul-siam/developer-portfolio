@@ -5,12 +5,21 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
 section{
+    height: 650px;
+    padding-bottom: 150px;
+    
+}
+.display-flex{
     display: flex;
 }
+
 .half-width{
     width: 50%;
     float: left;
@@ -41,10 +50,7 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-section{
-    height: 650px;
-    padding-bottom: 150px;
-}
+
 .half-width-3{
     width: 50%;
     float:left;
