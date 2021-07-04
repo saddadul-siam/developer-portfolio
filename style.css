@@ -13,10 +13,21 @@ section{
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
-.half-width img{
-    width: 40%;
+
+.half-width-2{
+    width: 50%;
+    float:right;
+    margin-left: 15%;
+    padding-right: 5%;
+
+}
+.half-width-2 img{
+    width: 100%;
+
 }
 .hire-button{
     text-decoration: none;
@@ -29,4 +40,25 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+section{
+    height: 650px;
+    padding-bottom: 150px;
+}
+.half-width-3{
+    width: 50%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width-4{
+    width: 50%;
+    float:left;
+    margin-left:5%;
+    padding-left: 5%;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
